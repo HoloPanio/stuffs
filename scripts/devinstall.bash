@@ -1,3 +1,6 @@
+# Dev Script that opens your projects
+# Written by lucemans (https://github.com/lucemans)
+
 LUC_DEV_FOLDER='/home/holopanio/projects/'
 function dev () {
     LUC_INPUT=$(ls $LUC_DEV_FOLDER | fzf --reverse)

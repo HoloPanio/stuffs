@@ -1,3 +1,7 @@
+# Dev Script that opens your project in VS Code
+# Written by lucemans (https://github.com/lucemans)
+# Modified by HoloPanio (https://github.com/HoloPanio)
+
 LUC_DEV_FOLDER='/home/holopanio/projects/'
 function vsdev () {
     LUC_INPUT=$(ls $LUC_DEV_FOLDER | fzf --reverse)
