@@ -4,10 +4,3 @@ This is a repo where I can store code snippets, scripts, github repos, or other 
 
 ## Helpful People
   - <[lucemans](https://github.com/lucemans)> - Lucemans provided some of the bash scripts and they are super amazing and easy to use and setup, thank you so much.
-
-## How to source a bash script
-This is just how to source bash scripts to be able to run them in your terminal
-
-```bash
-source ./linstall.bash
-```
