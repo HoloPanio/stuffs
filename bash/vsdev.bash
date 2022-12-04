@@ -4,7 +4,7 @@
 
 DEV_FOLDER='/home/holopanio/projects/'
 function vsdev () {
-    INPUT=$(ls $LUC_DEV_FOLDER | fzf --reverse)
+    INPUT=$(ls $DEV_FOLDER | fzf --reverse)
     if [[ ${#INPUT} -ne 0 ]]; then
         INPUT2=$DEV_FOLDER$INPUT;
         cd $INPUT2
